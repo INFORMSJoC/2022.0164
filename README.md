@@ -36,37 +36,7 @@ Below is the BibTex for citing this snapshot of the respoitory.
 }  
 ```
 
-# DiversiTree
 
-DiversiTree is a method for efficiently computing diverse sets of near-optimal solutions to mixed-integer optimization problems. This repository contains the implementation of DiversiTree, along with instructions on how to run the code.
-
-## Dependencies
-
-- GCC (6.3.0 or compatible version)
-- CMake
-- SCIP (required for mixed-integer optimization)
-
-## Installation
-
-Before installing DiversiTree, make sure to have the following dependencies installed:
-
-1. GCC:
-   - Install GCC version 6.3.0 or a compatible version.
-
-2. CMake:
-   - Install CMake using your package manager or from the official website: https://cmake.org/download/
-
-3. SCIP:
-   - DiversiTree depends on SCIP for mixed-integer optimization.
-   - Install SCIP by following the instructions provided in the SCIP documentation: [SCIP Installation Guide](https://www.scipopt.org/doc-7.0.3/html/install.php)
-
-## Getting Started
-
-These instructions will guide you on how to set up and run DiversiTree on your system.
-
-### Installation
-
-1. Clone the repository:
 # DiversiTree
 
 DiversiTree is a method for efficiently computing diverse sets of near-optimal solutions to mixed-integer optimization problems. This repository contains the implementation of DiversiTree, along with instructions on how to run the code.
