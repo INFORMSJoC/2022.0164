@@ -8,7 +8,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper (https://doi.org/10.1287/ijoc.2019.0000) by Izuwa Ahanor, Hugh Medal and Andrew Trapp.
 The snapshot is based on 
-[this SHA](https://github.com/izuwaa/Diversitree/commit/a9f459bc73bc2eba8956623aad7d79cf16ea0c08) 
+[this SHA](https://github.com/INFORMSJoC/2022.0164/7514eb90d8f560797178c6141be9f531342b8fd8) 
 in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
@@ -32,7 +32,7 @@ Below is the BibTex for citing this snapshot of the respoitory.
   title =         {{DiversiTree: Computing Diverse Sets of Near-Optimal Solutions to Mixed-Integer Optimization Problems}},
   year =          {2022},
   doi =           {10.1287/ijoc.2019.0000.cd},
-  url =           {https://github.com/INFORMSJoC/2019.0000},
+  url =           {https://github.com/INFORMSJoC/2022.0164},
 }  
 ```
 
