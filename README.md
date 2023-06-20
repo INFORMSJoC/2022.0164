@@ -112,21 +112,21 @@ cd /path/to/DiversiTree
 The `input_file.txt` contains the following details and definitions:
 
 - `solver`: The solver to be used by Diversitree. Options are `SCIP, GAMS`.
-- `SCIP`: A critical dependency for DiversiTree, which stands for "Solving Constraint Integer Programs".
-- `nodeType`: The type of nodes considered during the optimization process. The values 0 and 1 represent different node types.
-- `alphaValue`: A list of alpha values used within the branch-and-bound framework.
-- `optimizationProblem`: The name of the optimization problem file.
-- `requestedNumberSolutions`: The desired number of near-optimal solutions to be computed.
-- `percentNearOptimal`: The percentage of near-optimal solutions in the generated solution set.
+- `nodeType`: The node selection rule to use. Options are `0, 1, 2, 3, 4 or 5'. Where 0 - "DiversiTree", 1 - "bfs", 2 - "dfs", 3 - "uct", 4 - "hybridestim", and 5 - "breadthfirst". 
+- `alphaValue`: Alpha (α) ∈ [0, 1] is a parameter that trades off the bound of node i against its diversity score. You can provide a single alpha value or several values (separated by a comma). The code runs through the alpha values and provides a diversity score for each provided value. An alpha value of 1 means that Diversitree considers only diversity - selecting the node that gives the maximum diversity.
+- `optimizationProblem`: The name(s) of the optimization problem file(s) to solve. If multiple problems are provided at the same time, separate them with a comma. The file should be located in the "misfiles" folder with the exact name provided here.
+- `requestedNumberSolutions`: The desired number of near-optimal solutions to be computed. Can be a single requested number of solutions or multiple solutions separated by a comma.
+- `percentNearOptimal`: How close to the optimal should the generated solutions be? You can provide a single percent value e.g 0.03, 0.1.
 - `Verbosity`: The level of verbosity during the execution of DiversiTree.
-- `beta`: A parameter with a range of values.
-- `prioritizedParam`: The parameter that is set at a given value and prioritized during the optimization process.
-- `solutioncutoff`: The solution cutoff value used during optimization.
-- `depthcutoff`: The depth cutoff value used during optimization.
+- `beta`: Beta (β) ∈ [0, 1] controls the depth of the node in the Diversitree node selection rule. A β value of 1 means that the node selection rule works like depth first search and selects the next node to process based on the depth. You can provide a single beta value or several values (separated by a comma). The code runs through the beta values and provides a diversity score for each provided value.
+- `prioritizedParam`: options `beta, alpha`. This parameter that is first set and set at a given value and prioritized during the optimization process.
+- `solutioncutoff`: The solution cutoff parameter, that is, the number of solutions that must be accumulated before diversity is considered in node selection.
+- `depthcutoff`: The depth cutoff parameter, that is, the depth that must be reached before diversity is considered in the node selection.
 - `computeDiversity`: A flag to indicate whether to compute the diversities of captured solutions (0) or write the captured solutions to a CSV file (1).
 - `computeDiversityFromCsv`: A flag to indicate whether a CSV file with solutions is available (1) or not (0). If available, only the diversity of the k most diverse solutions will be computed, where k is represented by the parameter `requestedNumberSolutions`.
 - `csvFile`: The path to the CSV file containing solutions.
 - `pMostDiverseSolutions`: The number of most diverse solutions to consider.
+
 
 
 ## Ongoing Development
