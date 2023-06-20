@@ -1,0 +1,8 @@
+gamsWorkingDirectory:/Path/to/GAMS/Working/Directory
+gamsSystemDirectory:/Path/to/GAMS/Systems/Directory
+gamsOptDirectory:/Path/to/GAMS/Options/Directory/cplexOptions
+gamsGMSFileDirectory:/Path/to/GAMS/File/Directory/gmsFiles
+scipWorkingDirectory:
+scipSystemDirectory:
+scipOptDirectory:
+scipMPSFileDirectory:/Path/to/Where/SCIP/Finds/mpsfiles
