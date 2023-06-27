@@ -15,6 +15,8 @@ in the development repository.
 https://github.com/izuwaa/Diversitree. Please go there if you would like to
 get a more recent version or would like support**
 
+** The docs folder contains the Appendix to the paper**
+
 ## Cite
 
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
