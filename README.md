@@ -6,22 +6,24 @@ This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
-that were used in the research reported on in the paper (https://doi.org/10.1287/ijoc.2019.0000) by Izuwa Ahanor, Hugh Medal and Andrew Trapp.
+that were used in the research reported on in the paper [DiversiTree: A New Method to Efficiently Compute Diverse Sets of Near-Optimal Solutions to Mixed-Integer Optimization Problems](https://doi.org/10.1287/ijoc.2022.0164) by Izuwa Ahanor, Hugh Medal and Andrew Trapp.
 The snapshot is based on 
-[this SHA](https://github.com/izuwaa/2022.0164/7514eb90d8f560797178c6141be9f531342b8fd8) 
+[this SHA](https://github.com/izuwaa/2022.0164/7df6b38f5436848ddf56c3926c54c27bf0b7fcfe) 
 in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/izuwaa/Diversitree. Please go there if you would like to
 get a more recent version or would like support**
 
+** The docs folder contains the Appendix to the paper**
+
 ## Cite
 
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
 
-https://doi.org/10.1287/ijoc.2019.0000
+https://doi.org/10.1287/ijoc.2022.0164
 
-https://doi.org/10.1287/ijoc.2019.0000.cd
+https://doi.org/10.1287/ijoc.2022.0164.cd
 
 Below is the BibTex for citing this snapshot of the respoitory.
 
@@ -30,9 +32,9 @@ Below is the BibTex for citing this snapshot of the respoitory.
   author =        {Ahanor, Izuwa and Medal, Hugh and Trapp, Andrew C},
   publisher =     {INFORMS Journal on Computing},
   title =         {{DiversiTree: Computing Diverse Sets of Near-Optimal Solutions to Mixed-Integer Optimization Problems}},
-  year =          {2022},
-  doi =           {10.1287/ijoc.2019.0000.cd},
-  url =           {https://github.com/izuwaa/2022.0164},
+  year =          {2023},
+  doi =           {10.1287/ijoc.2022.0164.cd},
+  url =           {https://github.com/INFORMSJOC/2022.0164}
 }  
 ```
 
