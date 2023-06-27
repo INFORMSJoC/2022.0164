@@ -32,10 +32,9 @@ Below is the BibTex for citing this snapshot of the respoitory.
   author =        {Ahanor, Izuwa and Medal, Hugh and Trapp, Andrew C},
   publisher =     {INFORMS Journal on Computing},
   title =         {{DiversiTree: Computing Diverse Sets of Near-Optimal Solutions to Mixed-Integer Optimization Problems}},
-  year =          {2022},
+  year =          {2023},
   doi =           {10.1287/ijoc.2022.0164.cd},
-  url =           {https://github.com/INFORMSJOC/2022.0164},
-  note =	  {available for download at https://github.com/INFORMSJoC/2022.0164}
+  url =           {https://github.com/INFORMSJOC/2022.0164}
 }  
 ```
 
